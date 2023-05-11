@@ -24,3 +24,55 @@ img {
 p {
     padding: 10px;
 }
+
+
+
+/* below is for box-model.html */
+
+.callout {
+	max-width: 100%;
+
+    margin: 1em; 
+    /* margin is the outside invisible space */
+
+    border: 1em solid olive; 
+    /* border is the line in between margin and padding
+    you can also color this */
+
+    padding: 5%; 
+    /* padding is the invisible inner space */
+
+    background-color: whitesmoke;
+    color: green;
+    
+
+
+
+}
+
+.callout img {
+    float: right;
+    margin: 0 0 1em 1em;
+    border: 2em double olive;
+    padding: .75em;
+    background-color: whitesmoke;
+
+    width: 10em;
+    height: auto;
+	
+}
+
+blockquote {
+	margin: 0;
+}  
+
+cite {
+	display: block; 
+    
+    margin-top: 15%;
+    border-top: 1px  dotted green;
+    padding-top: 1em;
+
+    text-align: right;
+    font-size: smaller;
+} 
