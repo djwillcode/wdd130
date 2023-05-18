@@ -15,7 +15,7 @@ main {
 
 aside { /* (outer) margin, border, padding (inner) */
     margin: 1em; /* pushes outward */
-    border: 1px solid rgba (0,0,0,0.2); /* fills, color */
+    border: 1px solid rgba(0,0,0,0.2); /* fills, color */
     padding: 1em; /* pushes inwards */
     background-color: #eee;
     color: #333;
