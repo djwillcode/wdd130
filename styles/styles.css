@@ -15,7 +15,8 @@ main {
 
 aside { /* (outer) margin, border, padding (inner) */
     margin: 1em; /* pushes outward */
-    border: 1px solid rgba(0,0,0,0.2); /* fills, color */
+    border: 1px solid #333333; /* fills, color */
+    opacity: 0.2; /*rgba(0,0,0,0.2) but css validator not support rgba*/
     padding: 1em; /* pushes inwards */
     background-color: #eee;
     color: #333;
