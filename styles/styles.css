@@ -1,0 +1,57 @@
+
+/* week 2 */
+
+/* #ph-paragraph {  ##free creativity section ##
+    text-align: left;
+    max-width: 840px;
+} */
+
+/**/
+
+main {
+    max-width: 840px;
+} /* this prevents the main section from adjusting when the window
+    is resized. learn more about max-width */
+
+aside { /* (outer) margin, border, padding (inner) */
+    margin: 1em; /* pushes outward */
+    border: 1px solid rgba (0,0,0,0.2); /* fills, color */
+    padding: 1em; /* pushes inwards */
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+main { /* free creativity */
+    text-align: center;
+    /* free creativity */
+    margin: 1em;
+    padding: 1em; /* this is to align main with aside in the design */
+}
+
+header {/* free creativity */
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+p { padding: 0;}
+
+footer {
+    margin: 10px;
+    border-top: 1px dashed #333;
+    text-align: center;
+}
+
+
+/* end week 2 */
