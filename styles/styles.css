@@ -1,26 +1,33 @@
 
 /* week 2 */
 
-/* #ph-paragraph {  ##free creativity section ##
-    text-align: left;
-    max-width: 840px;
-} */
+
 
 /**/
 
 main {
     max-width: 840px;
+    
 } /* this prevents the main section from adjusting when the window
     is resized. learn more about max-width */
 
-aside { /* (outer) margin, border, padding (inner) */
-    margin: 1em; /* pushes outward */
-    border: 1px solid #333333; /* fills, color */
-    opacity: 0.2; /*rgba(0,0,0,0.2) but css validator not support rgba*/
-    padding: 1em; /* pushes inwards */
-    background-color: #eee;
-    color: #333;
+aside { 
+    /* (outer) margin, border, padding (inner) */
+    /* margin: 1em;  */
+    /* pushes outward */
+    /* border: 1px solid #333333;  */
+    /* fills, color */
+    /* padding: 1em;  */
+    /* pushes inwards */
+    /* background-color: rgba(0,0,0,0.2); */
+    /* color: #333; */
+    /* because of .box the upper code has been redundant */
+
+
     text-align: center;
+    width: 20em;
+    position: relative;
+    
 }
 
 aside img {
@@ -31,19 +38,23 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: right;
+    margin:1rem;
+    
 }
 
-main { /* free creativity */
-    text-align: center;
-    /* free creativity */
+main {
+
     margin: 1em;
-    padding: 1em; /* this is to align main with aside in the design */
+    padding: 1em; 
+    /* this is to align main with aside in the design */
 }
 
-header {/* free creativity */
-    margin: 0.5em;
-    padding: 0.5em;
-    text-align: center;
+header, header a {
+    background-color: navajowhite;
+    display: block;
+    padding: 5px 0 5px 10px;
+    text-align: left;
 }
 
 p { padding: 0;}
@@ -56,3 +67,32 @@ footer {
 
 
 /* end week 2 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 10px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+    background-color: palegoldenrod;
+    color: #333;
+}
+
+aside h2{
+    position: absolute;
+    bottom: 105%;
+    left: 30%;
+  }
+
+
+/* free action */
+li {
+    margin-left: 10px;
+}
+
