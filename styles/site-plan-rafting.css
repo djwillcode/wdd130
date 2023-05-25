@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+:root {
+    --primary-color: #0A2463;
+    --secondary-color: #3E92CC;
+    --accent1-color: #ff5e00a9;
+    --accent2-color: #D8315B;
+    --accent3-color: #1E1B18;
+
+    --heading-font: 'Rajadhani', sans-serif;
+    --paragraph-font: 'Georgia', serif;
+
+    --nav-background-color: #0A2463;
+    --nav-link-color: #3E92CC;
+    --nav-hover-link-color: #FFFAFF;
+    --nav-hover-background-color: #1E1B18;
+
+}
+
+/* body {
+    font-family: 'Rajdhani', sans-serif, georgia;
+} */
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+/*  */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  /*  */
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+
+  /*  */
+p {
+    padding: 25px;
+  }
+
+  /* navigation "Home" "About Us" "Trips" "Contact Us" */
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex; 
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none; 
+    padding: 1rem;
+  }
+  
+  nav a:link, /* choose color for the link itself */
+  nav a:visited /* choose color for "<a>" when visited */{
+    color: var(--nav-link-color);
+  } 
+
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+
+  /* display: flex; // it allows you to create horizontally aligned layouts easily */
+  /* display: block; // starts a new line in the design, taking up the full width */
+  /* display: inline; // this is the opposite of block, only taking necessary \
+     space and possibly sharing it with others */
+
+
+
+  /* text-decoration: none; // removes underlines and extra details */
+
+
+
+  /* :root {} // defines a CSS variable */
+  /* :root {--something: 1E1B18} // something is now defined by a color 
+      (which is a shade of black)*/
+
+  /* var(--something); // "var" pulls from the variable called "--something" */
+
+
+
+  /* nav a:link // in this context you can change the color of the link within
+      the code <a> */
+  /* nav a:visited // you can change the color of the link once it has been visited
+      before */
+  /* nav a:hover // changes the color when you put your mouse nearby, the code we have
+      now changes both the text color and the background color */
+
+
+
+
+
+  /* experiment section */
+
+  /* ul {
+    display: flex;
+  } */  /* this code makes the bulelt points in <ul> turn horizontal */
