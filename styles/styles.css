@@ -9,12 +9,16 @@ nav a {
     padding: 20px;
 }
 
-h1 {
+main {
+    max-width: 840px;
+}
+
+main h1 {
     color: steelblue;
 }
 
-img {
-    width: 150px;
+main img {
+    width: 10rem;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -22,5 +26,26 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+aside {
+    width: 15rem;
+    margin:1rem;
+    border: 2px solid rgb(220 20 60/.2);
+    padding: 1rem;
+    background-color: antiquewhite;
+    color: crimson;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1.6rem;
+    border-top: 1px solid black;
+    text-align: center;
 }
