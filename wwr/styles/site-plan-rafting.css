@@ -23,26 +23,24 @@ accent2-color
     /* headings color */
 
     --secondary-color: #D1D646;
-    /* header color */
 
     --accent1-color: #ffffff;
-    /* not used */
 
     --accent2-color: #607744;
-    /* not used */
 
     --accent3-color: #F07167;
-    /* not used */
     
     --heading-font: Roboto, sans-serif;
+
     --paragraph-font: 'Roboto Slab', serif;
-    --navigational-background-color: var(--secondary-color);
-    --navigational-link-color: var(--primary-color);
-    --nav-visited-link-color: var(--accent3-color);
-    --navigation-hover-link-color: var(--accent1-color);
-    --navigation-hover-background-color: var(--accent2-color);
 
+    --nav-background-color: var(--secondary-color);
 
+    --nav-link-color: var(--primary-color);
+
+    --nav-hover-link-color: var(--accent1-color);
+
+    --nav-hover-background-color: var(--accent2-color);
 
 
 
@@ -55,25 +53,25 @@ header {
 }
 
 nav {
-    background-color: var(--navigational-background-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--navigational-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--navigational-link-color);
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--navigation-hover-link-color);
-    background-color: var(--navigation-hover-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 main{
