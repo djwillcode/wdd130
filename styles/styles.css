@@ -75,6 +75,6 @@ footer {
     color: crimson;
 }
 
-ul.box {
+ul.box { /* indent paragraph */
     padding: 2rem;
 }
