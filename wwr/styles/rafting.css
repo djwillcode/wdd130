@@ -123,9 +123,7 @@ h1,h2, h3, h4, h5, h6 {
 .history-part {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     padding: 0 1%;
-    
 }
 
 .history-part h2 {
@@ -178,4 +176,49 @@ footer {
 .social-links img {
     width: 40px;
     height: auto;
+}
+
+
+/* contact.html */
+
+#contacts {
+    /* background-color: #D1D646; */
+    border: 2px dotted;
+    padding: 2rem;
+
+    text-align: center;
+}
+
+#contact-details {
+    display: flex;
+}
+
+.contact-box {
+    padding: 10px;
+    margin: 10px;
+}
+
+#contact-info {
+    border: 2px solid var(--accent2-color);
+    
+}
+
+#contact-info2 {
+    border: 2px solid var(--accent2-color);
+}
+
+#map {
+    text-align: center;
+}
+
+#happy {
+    text-align: center;
+}
+
+#happy img {
+    width: 100%;
+}
+
+#happy-box {
+    display: flex;
 }
