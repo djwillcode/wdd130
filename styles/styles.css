@@ -1,12 +1,21 @@
+:root {
+    --heading-background-color: steelblue;
+    --heading-text-color: white;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    /* font has not been applied yet to any content */
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.2);
+}
+
 nav {
-    background-color: steelblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 main {
@@ -32,7 +41,7 @@ p {
 aside {
     width: 400px;
     margin: 10px;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: var(--border);
     padding: 10px;
     background-color: beige;
     color: red;
