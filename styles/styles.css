@@ -42,6 +42,11 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
+main ul {
+    width: 600px;
+    /* personal corrections */
+}
+
 p {
     padding: 0;
     margin: 1rem;
@@ -77,6 +82,7 @@ footer {
     padding: 1rem;
     background-color: beige;
     color: red;
+
 }
 
 .indent {
