@@ -47,7 +47,7 @@ footer {
 
 }
 
-.hero article {
+.hero .is-article {
     position: absolute;
     bottom: 10px;
     width: 96%;
@@ -58,7 +58,7 @@ footer {
     color: #fff;
 }
 
-.hero article img {
+.hero .is-article img {
     float: right;
     width: 120px;
     opacity: 1;
@@ -90,7 +90,7 @@ h1 {
 nav,
 p,
 section,
-article {
+.is-article {
     margin: 16px;
     padding: 8px;
 }
@@ -104,3 +104,9 @@ h2 {
     background-color: var(--accent1-color);
     color: #fff;
 }
+
+/* Warning: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles. From line 35,
+column 13;
+to line 35,
+column 21 <article > ↩ */
+/* because of this i changed article to div */
