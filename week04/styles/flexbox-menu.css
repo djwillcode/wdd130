@@ -17,6 +17,12 @@ nav ul {
     align-items: center;
 }
 
+nav li {
+    flex: 1 1 auto;
+    /* button size fills space of its containter automatically */
+
+}
+
 nav a {
     display: block;
     color: #fff;
