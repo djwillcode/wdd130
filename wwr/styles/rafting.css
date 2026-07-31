@@ -6,7 +6,7 @@
     --border: 1rem solid rgb(0 0 0 / 0.2);
 
     --primary-color: steelblue;
-    --secondary-color: violet;
+    --secondary-color: yellow;
     --accent1-color: green;
     --accent2-color: indigo;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -17,14 +17,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia a img {
-    width: 50px;
 }
 
 /* probablty apply this tag to */
@@ -40,6 +32,13 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+header {
+    /* border: 2px solid black; */
+    background-color: var(--secondary-color);
+    opacity: .7;
+    color: white;
 }
 
 .hero {
@@ -70,6 +69,52 @@ footer {
     height: auto;
 }
 
+/*  */
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+header img {
+    grid-column: 1/2;
+    margin: 0 auto;
+    padding: 10px;
+
+    width: 120px;
+    height: auto;
+}
+
+nav ul {
+    /* background-color: var(--heading-background-color); */
+    /* padding: 10px; */
+
+    /* w4 */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    list-style-type: none;
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+nav li {
+    padding: 5px;
+    border: 2px solid black;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -95,6 +140,59 @@ section,
     padding: 8px;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid black; */
+}
+
+.history img {
+    width: 200px;
+
+}
+
+.history h2 {
+    grid-column: 1/4;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.adventure h2 {
+    grid-column: 1/6;
+    margin-bottom: 10px;
+}
+
+.adventure figure {
+    position: relative;
+    width: 100%;
+
+}
+
+.adventure img {
+    max-width: 100%;
+
+}
+
+.adventure figcaption {
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+
+}
+
 h2 {
     top: 20px;
     width: 100%;
@@ -105,8 +203,37 @@ h2 {
     color: #fff;
 }
 
-/* Warning: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles. From line 35,
-column 13;
-to line 35,
-column 21 <article > ↩ */
-/* because of this i changed article to div */
+footer {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    justify-content: space-between;
+
+    background-color: var(--secondary-color);
+    opacity: 0.7;
+    color: black;
+
+}
+
+footer p {
+    display: inline;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    padding: 5px;
+}
+
+.socialmedia {
+
+    display: inline;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia a img {
+    width: 20px;
+}
