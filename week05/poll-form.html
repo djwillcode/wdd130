@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1>The Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>This is the Poll Legend</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email Adress:</label>
+                    <input type="text" id="useremail" name="useremail" required>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="1">Firefox</option>
+                        <option value="2">Opera Mini</option>
+                        <option value="3">Chrome</option>
+                    </select>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
+
+                <div class="form-item">
+                    <label for="feedback">List the places you have lived.</label>
+                    <textarea name="feedback" id="feedback"
+                      placeholder="123 Main Street, Anytown, CA 12345" rows="4"></textarea>
+
+                    <button type="submit">Submit Poll</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

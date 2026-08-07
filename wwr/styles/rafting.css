@@ -46,7 +46,7 @@ header {
 
 }
 
-.hero .is-article {
+.hero article {
     position: absolute;
     bottom: 10px;
     width: 96%;
@@ -57,7 +57,7 @@ header {
     color: #fff;
 }
 
-.hero .is-article img {
+.hero article img {
     float: right;
     width: 120px;
     opacity: 1;
@@ -132,12 +132,13 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
+
 }
 
 nav,
 p,
 section,
-.is-article {
+article {
     margin: 16px;
     padding: 8px;
 }
