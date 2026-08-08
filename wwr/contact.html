@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <meta name="description"
+      content="This is the contact page for the rafting site. Get info here to reach out.">
+    <meta name="author" content="Derek Joseph Temblor">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <!-- logo -->
+        <img src="images/z-dryoarlogo.png" alt="rafting site logo">
+
+        <!-- nav -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- remember to optimize this image -->
+    <main>
+        <div class="company-info">
+            <h1 id="h1contact">The Right Rafting Corp.</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+
+        </div>
+        <section class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62998.786372288945!2d123.25877675!3d9.295633050000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ab6f3cd68ec4a1%3A0x8c72746c836f6c3f!2sBanica%20River!5e0!3m2!1sen!2sph!4v1786195031207!5m2!1sen!2sph"
+              width="300" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+
+        <form>
+            <div class="form-item">
+                <label class="text-label" for="fullname">Full Name:</label>
+                <input class="text-input" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item">
+                <label class="text-label" for="useremail">Email Adress:</label>
+                <input class="text-input" type="text" id="useremail" name="useremail" required>
+            </div>
+            <div class="form-item">
+                <p class="radio-label">Message Purpose</p>
+                <div class="radio-input">
+                    <input type="radio" id="general" name="general" value="general">
+                    <label for="general">General Inquiry</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" id="reservation" name="reservation" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" id="website" name="website" value="website">
+                    <label for="website">Website Suggestion</label>
+                </div>
+            </div>
+            <div class="form-item">
+                <label class="message-label" for="message">Message:</label>
+                <textarea class="message-input" name="message" id="message" rows="4"
+                  placeholder="Inpute your message here..."></textarea>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="check-form">
+                <input class="check-input" type="checkbox" name="subscribe" id="subscribe">
+                <p class="check-label">Please subscribe me to the
+                    monthly newsletter</p>
+            </div>
+            <div class="form-item">
+                <input class="submit-input" type="submit" name="submit" id="submit">
+            </div>
+        </form>
+
+        <!-- skeletone done -->
+        <section class="employee">
+            <h2>We Are Here To Serve You!</h2>
+
+            <figure>
+                <img src="images/employee.webp" alt="Employee image">
+                <figcaption>Employee Profile</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.webp" alt="Employee image">
+                <figcaption>Employee Profile</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.webp" alt="Employee image">
+                <figcaption>Employee Profile</figcaption>
+            </figure>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 | The Right Rafting Corp. | Derek Joseph Temblor</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook logo"></a>
+            <a href="https://x.com"><img src="images/x-bw.svg" alt="Twitter logo"></a>
+            <a href="https://linkdin.com"><img src="images/linkedin.svg" alt="Linkdin logo"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>

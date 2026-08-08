@@ -117,6 +117,15 @@ nav a {
     text-decoration: none;
 }
 
+.company-info {
+    text-align: center;
+    margin: 0;
+}
+
+.company-info p {
+    margin: -10px;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -124,15 +133,22 @@ h2 {
 }
 
 h1 {
-    position: absolute;
+
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+}
+
+h1#h1about {
+    position: absolute;
     background-color: var(--accent1-color);
     color: #fff;
+    opacity: 0.7;
+}
 
+h1#contact {
+    background-color: none;
 }
 
 nav,
@@ -160,6 +176,43 @@ article {
 
 .history h2 {
     grid-column: 1/4;
+}
+
+.employee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 20px;
+
+}
+
+.employee h2 {
+    grid-column: 1/4;
+    margin-bottom: 10px;
+}
+
+.employee figure {
+    position: relative;
+    /* width: 100%; */
+    text-align: center;
+
+}
+
+.employee img {
+    max-width: 100%;
+
+}
+
+.employee figcaption {
+    position: absolute;
+    bottom: -35px;
+    right: 56.5px;
+    width: 56.5%;
+    padding: 10px;
+    /* text-align: center; */
+    opacity: 0.7;
+    /* background-color: var(--accent1-color); */
+    color: black;
+
 }
 
 .adventure {
@@ -239,4 +292,153 @@ footer a {
 
 .socialmedia a img {
     width: 20px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 20px double rgb(0 0 0 / 0.1); */
+    border-radius: 30px;
+    background-color: white;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    /* color: navy; */
+    /* font-size: 1.3em; */
+}
+
+form label,
+form input,
+form button,
+form select,
+form textarea,
+form div {
+    font-family: 'Courier New', Courier, monospace
+}
+
+/* maybe */
+label {
+    text-align: right;
+    padding-right: 1.5em;
+}
+
+/*  */
+input,
+select,
+textarea {
+    /* padding: 1rem; */
+    font-size: 1rem;
+    margin: 3px;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+}
+
+input[type="submit"] {
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* align-items: center; */
+    /* justify-content: end; */
+}
+
+.text-label {
+    grid-column: 1/2;
+    text-align: start;
+}
+
+.text-input {
+    grid-column: 2/4;
+}
+
+.radio-label {
+    grid-row: 1/4;
+    align-self: center;
+}
+
+.radio-input {
+    grid-column: 2/4;
+    padding: 10px 0;
+
+}
+
+.message-label {
+    grid-column: 1/4;
+    text-align: start;
+}
+
+.message-input {
+    grid-column: 1/4;
+}
+
+.check-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.check-input,
+.check-label {
+    margin: 0;
+}
+
+.submit-input {
+    grid-column: 1/4;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border: none;
+}
+
+.map {
+    grid-column: 1/2;
+}
+
+iframe {
+    width: 300px;
+}
+
+form {
+    grid-column: 2/3;
+    width: 400px;
+}
+
+.company-info {
+    grid-column: 1/3;
+}
+
+.employee {
+    grid-column: 1/3;
 }
