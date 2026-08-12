@@ -43,6 +43,7 @@ header {
 
 .hero {
     position: relative;
+    grid-column: 1/3;
 
 }
 
@@ -160,6 +161,8 @@ article {
 }
 
 .history {
+    grid-column: 1/3;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
@@ -216,6 +219,7 @@ article {
 }
 
 .adventure {
+    grid-column: 1/3;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 
