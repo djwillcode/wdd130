@@ -501,6 +501,10 @@ form {
 
 /* trips.html */
 
+#h1-trips {
+    grid-column: 1/4;
+}
+
 #contact-us {
     display: grid;
     grid-column: 1/3;
