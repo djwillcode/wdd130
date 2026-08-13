@@ -469,6 +469,10 @@ form {
     width: 280px;
 }
 
+#index-button {
+    justify-self: center;
+}
+
 .call-to-action figure {
     position: relative;
     /* width: 1px; */
